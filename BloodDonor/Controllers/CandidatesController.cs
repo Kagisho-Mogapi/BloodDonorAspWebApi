@@ -31,7 +31,7 @@ namespace BloodDonor.Controllers
             return await _context.Candidates.ToListAsync();
         }
 
-        // GET: api/Candidates/5
+        // GET: api/Candidate/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Candidate>> GetCandidate(int id)
         {
